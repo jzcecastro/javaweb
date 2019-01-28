@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>addservlet</servlet-name>
+  	<display-name>addservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.jzce.webapp.addservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>addservlet</servlet-name>
+  	<url-pattern>/addservlet</url-pattern>
+  </servlet-mapping>
 </web-app>
